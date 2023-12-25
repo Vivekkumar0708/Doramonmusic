@@ -1,9 +1,9 @@
 <h2 align="center">
-    ──「 ˹𝐈ɴᴄʀɪᴄɪʙʟ𝐄 ✘ 𝐌ᴜsɪ𝐂˼ 」──
+    ──「 ˹VIVEK ✘ 𝐌ᴜsɪ𝐂˼ 」──
 </h2>
 
 <p align="center">
-  <img src="https://graph.org/file/929a2ae1bba42e733aae6.jpg">
+  <img src="https://telegra.ph/file/8cd185b789502fe75c10e.jpg">
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="https://te.legra.ph/file/b400c0c6c6b6d600c3215.jpg">
+  <img src="https://telegra.ph/file/8cd185b789502fe75c10e.jpg">
 </p>
 
 <h3 align="center">
