@@ -24,10 +24,10 @@ def setting_markup(_):
         ],
         [
             InlineKeyboardButton(
-                text="•sᴜᴘᴘᴏʀᴛ•", url=f"{SUPPORT_GROUP}",
+                text="sᴜᴘᴘᴏʀᴛ", url=f"{SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"], callback_data="close"
+                text="ᴄʟᴏsᴇ", callback_data="close"
             ),
         ],
     ]
@@ -115,7 +115,7 @@ def video_quality_markup(
                 callback_data="settingsback_helper",
             ),
             InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"], callback_data="close"
+                text="ᴄʟᴏsᴇ", callback_data="close"
             ),
         ],
     ]
@@ -153,7 +153,7 @@ def cleanmode_settings_markup(
                 callback_data="settingsback_helper",
             ),
             InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"], callback_data="close"
+                text="ᴄʟᴏsᴇ", callback_data="close"
             ),
         ],
     ]
@@ -182,7 +182,7 @@ def auth_users_markup(_, status: Union[bool, str] = None):
                 callback_data="settingsback_helper",
             ),
             InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"], callback_data="close"
+                text="ᴄʟᴏsᴇ", callback_data="close"
             ),
         ],
     ]
@@ -231,7 +231,7 @@ def playmode_users_markup(
                 callback_data="settingsback_helper",
             ),
             InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"], callback_data="close"
+                text="ᴄʟᴏsᴇ", callback_data="close"
             ),
         ],
     ]
