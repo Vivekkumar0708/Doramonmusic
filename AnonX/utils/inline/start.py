@@ -15,13 +15,13 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="•ᴅᴇᴠᴇʟᴏᴘᴇʀ•",
+                text="ᴅᴇᴠᴇʟᴏᴘᴇʀ",
                 url=f"https://t.me/vivekkumar0708",
             )
         ],
         [
             InlineKeyboardButton(
-                text="•ʜᴇʟᴘ•",
+                text="ʜᴇʟᴘ",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
@@ -45,15 +45,15 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="•ᴄᴏᴍᴍᴀɴᴅs•", callback_data="settings_back_helper"
             ),
             InlineKeyboardButton(
-                text="•ᴏᴡɴᴇʀ•", user_id=OWNER
+                text="ᴏᴡɴᴇʀ", user_id=OWNER
             )
         ],
         [
             InlineKeyboardButton(
-                text="•sᴜᴘᴘᴏʀᴛ•", url=config.SUPPORT_GROUP
+                text="sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="•ᴊᴏɪɴ•", url=f"https://t.me/Quizess_prince"
+                text="ᴊᴏɪɴ", url=f"https://t.me/Quizess_prince"
             )
         ],
      ]
