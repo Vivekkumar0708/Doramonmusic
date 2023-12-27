@@ -71,7 +71,7 @@ def audio_quality_markup(
                 callback_data="settingsback_helper",
             ),
             InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"], callback_data="close"
+                text="ᴄʟᴏsᴇ", callback_data="close"
             ),
         ],
     ]
