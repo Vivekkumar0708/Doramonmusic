@@ -12,7 +12,7 @@ def back_stats_markup(_):
                     callback_data="TOPMARKUPGET",
                 ),
                 InlineKeyboardButton(
-                    text=_["CLOSE_BUTTON"],
+                    text="ᴄʟᴏsᴇ",
                     callback_data="close",
                 ),
             ],
@@ -30,7 +30,7 @@ def overallback_stats_markup(_):
                     callback_data="GlobalStats",
                 ),
                 InlineKeyboardButton(
-                    text=_["CLOSE_BUTTON"],
+                    text="ᴄʟᴏsᴇ",
                     callback_data="close",
                 ),
             ],
@@ -42,7 +42,7 @@ def overallback_stats_markup(_):
 def get_stats_markup(_, status):
     not_sudo = [
         InlineKeyboardButton(
-            text=_["CLOSEMENU_BUTTON"],
+            text="ᴄʟᴏsᴇ",
             callback_data="close",
         )
     ]
@@ -52,7 +52,7 @@ def get_stats_markup(_, status):
             callback_data="bot_stats_sudo g",
         ),
         InlineKeyboardButton(
-            text=_["CLOSEMENU_BUTTON"],
+            text="ᴄʟᴏsᴇ",
             callback_data="close",
         ),
     ]
@@ -102,7 +102,7 @@ def stats_buttons(_, status):
             sudo if status else not_sudo,
             [
                 InlineKeyboardButton(
-                    text=_["CLOSE_BUTTON"],
+                    text="ᴄʟᴏsᴇ",
                     callback_data="close",
                 ),
             ],
@@ -120,7 +120,7 @@ def back_stats_buttons(_):
                     callback_data="GETSTATS",
                 ),
                 InlineKeyboardButton(
-                    text=_["CLOSE_BUTTON"],
+                    text="ᴄʟᴏsᴇ",
                     callback_data="close",
                 ),
             ],
@@ -158,7 +158,7 @@ def top_ten_stats_markup(_):
                     callback_data="GlobalStats",
                 ),
                 InlineKeyboardButton(
-                    text=_["CLOSE_BUTTON"],
+                    text="ᴄʟᴏsᴇ",
                     callback_data="close",
                 ),
             ],
