@@ -16,7 +16,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     anon = math.floor(percentage)
     if 0 < anon <= 2:
-        bar = "⚡ѕтαяє∂ ρℓαყเɳɠ⚡"
+        bar = "⚡sᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ⚡"
     elif 2 < anon < 3:
         bar = "ﮩ٨ـﮩﮩ٨ـﮩ٨ـﮩ♡ﮩ٨ـ"
     elif 3 <= anon < 4:
@@ -235,20 +235,20 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="💘𝐔ρ∂αтє𝐒💘", url="https://t.me/The_Incricible"
+                text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Quizess_prince"
             ),
         
             InlineKeyboardButton(
-                text="💘𝐒υρρσят𝐓💘", url="https://t.me/INCRICIBLE"
+                text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/Quizess_prince"
             ),
         ],    
         [
             InlineKeyboardButton(
-                text="🖤𝐎ɯɳҽ𝐑🖤", url="https://t.me/YOUR_GODFATHER_XD"
+                text="ᴄᴏᴍᴇ ʜᴇʀᴇ", url="https://t.me/Quizess_prince"
             ),
         
             InlineKeyboardButton(
-                text="🌹 𝐂ʅσʂ𝐄 🌹", callback_data=f"close"
+                text="ᴄʟᴏsᴇ", callback_data=f"close"
             )
         ],
     ]
@@ -260,7 +260,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     anon = math.floor(percentage)
     if 0 < anon <= 2:
-        bar = "⚡ѕтαяє∂ ρℓαყเɳɠ⚡"
+        bar = "⚡sᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ⚡"
     elif 2 < anon < 3:
         bar = "ﮩ٨ـﮩﮩ٨ـﮩ٨ـﮩ♡ﮩ٨ـ"
     elif 3 <= anon < 4:
@@ -479,20 +479,20 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="💘𝐔ρ∂αтє𝐒💘", url="https://t.me/The_Incricible"
+                text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Quizess_prince"
             ),
         
             InlineKeyboardButton(
-                text="💘𝐒υρρσят𝐓💘", url="https://t.me/Incricible"
+                text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/Quizess_prince"
             ),
         ],    
         [
             InlineKeyboardButton(
-                text="🖤𝐎ɯɳҽ𝐑🖤", url="https://t.me/Your_Godfather_xd"
+                text="ᴄᴏᴍᴇ ʜᴇʀᴇ", url="https://t.me/Quizess_prince"
             ),
         
             InlineKeyboardButton(
-                text="🌹 𝐂ʅσʂ𝐄 🌹", callback_data=f"close"
+                text="ᴄʟᴏsᴇ", callback_data=f"close"
             )
         ],
     ]
